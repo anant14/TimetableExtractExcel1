@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\anant bansal\AndroidStudioProjects\TA\TimetableExtractExcel1\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_7541db917baa506c0dd564574dda219c7099e134.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\anant bansal\AndroidStudioProjects\TA\TimetableExtractExcel1\app\libs\jxl.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7faf62e0697f7a88954622dfe8c8de33ed142ac7">
+        <dex dex="C:\Users\anant bansal\AndroidStudioProjects\TA\TimetableExtractExcel1\app\build\intermediates\pre-dexed\debug\jxl_843800e1f78f5a9416999cb3d54464245ceaffa8.jar" />
+    </item>
+
+</items>

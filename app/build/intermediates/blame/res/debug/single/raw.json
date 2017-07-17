@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\anant bansal\\AndroidStudioProjects\\TA\\TimetableExtractExcel1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\roomlist.txt",
+        "source": "C:\\Users\\anant bansal\\AndroidStudioProjects\\TA\\TimetableExtractExcel1\\app\\src\\main\\res\\raw\\roomlist.txt"
+    },
+    {
+        "merged": "C:\\Users\\anant bansal\\AndroidStudioProjects\\TA\\TimetableExtractExcel1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\subcodeformat.txt",
+        "source": "C:\\Users\\anant bansal\\AndroidStudioProjects\\TA\\TimetableExtractExcel1\\app\\src\\main\\res\\raw\\subcodeformat.txt"
+    },
+    {
+        "merged": "C:\\Users\\anant bansal\\AndroidStudioProjects\\TA\\TimetableExtractExcel1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\subcode.txt",
+        "source": "C:\\Users\\anant bansal\\AndroidStudioProjects\\TA\\TimetableExtractExcel1\\app\\src\\main\\res\\raw\\subcode.txt"
+    }
+]
