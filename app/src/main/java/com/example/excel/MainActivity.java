@@ -28,15 +28,19 @@ public class MainActivity extends Activity {
 	int X_START = 2;
 	int Y_START = 3;//4 for seven semester
 	int X_END = 9;
-	int Y_END = 111;//116 for first Semester
+	int Y_END = 90;//116 for first Semester
 					//87 for five semester
 					//63 for seventh semester
 					//111 for third semester
-	
+
+					//112 for second semester
+					//107 for four semester
+					//90 for six semester
+					//54 for eight semester
 	//ONLY .XLS IS ACCEPTED (.XLSX NOT ACCEPTED)
 	
-	final String INPUT_FILENAME = "sem3.xls";
-	final String OUTPUT_DB_NAME = "sem3.db";
+	final String INPUT_FILENAME = "sem62.xls";
+	final String OUTPUT_DB_NAME = "sem36.db";
 
 	// PUT FULL SUBJECT CODE FILE IN RAW FOLDER.
 	// PUT EXCEL SHEET IS IN ASSEST FOLDER.
@@ -110,6 +114,10 @@ public class MainActivity extends Activity {
 							if(tmp.equals("LUNCHFORB1,B2,B3,B4,A3"))
 								continue;
 							if(tmp.equals(""))
+								continue;
+							if(tmp.equals("LUNCHFORC4BATCH"))
+								continue;
+							if(tmp.equals("LUNCHA8,B9,B15"))
 								continue;
 							if (tmp.equals("LUNCH"))
 								continue;
