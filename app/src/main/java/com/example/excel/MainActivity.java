@@ -26,12 +26,12 @@ import jxl.read.biff.BiffException;
 public class MainActivity extends Activity {
 
 	int X_START = 2;
-	int Y_START = 3;//4 for seven semester
+	int Y_START = 3;
 	int X_END = 9;
-	int Y_END = 90;//116 for first Semester
-					//87 for five semester
-					//63 for seventh semester
-					//111 for third semester
+	int Y_END = 78;// 99 for 1
+					//100 for 3
+					//76 for 5
+					//78 for 7
 
 					//112 for second semester
 					//107 for four semester
@@ -39,8 +39,8 @@ public class MainActivity extends Activity {
 					//54 for eight semester
 	//ONLY .XLS IS ACCEPTED (.XLSX NOT ACCEPTED)
 	
-	final String INPUT_FILENAME = "sem62.xls";
-	final String OUTPUT_DB_NAME = "sem36.db";
+	final String INPUT_FILENAME = "sem7.xls";
+	final String OUTPUT_DB_NAME = "sem7.db";
 
 	// PUT FULL SUBJECT CODE FILE IN RAW FOLDER.
 	// PUT EXCEL SHEET IS IN ASSEST FOLDER.
@@ -102,7 +102,6 @@ public class MainActivity extends Activity {
 						for (int i = X_START; i <= X_END; ++i) {
 							String tmp = sheet.getCell(i, j).getContents()
 									.replaceAll("\\s", "");
-							tmp = tmp.toUpperCase().trim();
 							if(tmp.equals("LUNCHA1-A9"))
 								continue;
 							if(tmp.equals("LUNCHFORA1-A9"))
